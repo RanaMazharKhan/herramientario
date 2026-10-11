@@ -1,0 +1,20 @@
+# www -> apex (canonical domain is https://herramientario.app)
+https://www.herramientario.app/* https://herramientario.app/:splat 301!
+
+# Clean URLs: redirect .html versions to canonical extensionless URLs
+# (Cloudflare Pages serves /tools/x from /tools/x.html automatically)
+/index.html / 301
+/blog/index.html /blog/ 301
+/tools/generador-de-codigos-qr.html /tools/generador-de-codigos-qr 301
+/tools/contador-de-palabras.html /tools/contador-de-palabras 301
+/tools/compresor-de-imagenes.html /tools/compresor-de-imagenes 301
+/tools/calculadora-de-imc.html /tools/calculadora-de-imc 301
+/tools/generador-de-contrasenas.html /tools/generador-de-contrasenas 301
+/tools/formateador-json.html /tools/formateador-json 301
+/blog/como-crear-un-codigo-qr-para-whatsapp.html /blog/como-crear-un-codigo-qr-para-whatsapp 301
+/blog/como-reducir-el-peso-de-una-imagen-sin-perder-calidad.html /blog/como-reducir-el-peso-de-una-imagen-sin-perder-calidad 301
+/blog/que-es-el-indice-de-masa-corporal-y-como-calcularlo.html /blog/que-es-el-indice-de-masa-corporal-y-como-calcularlo 301
+/blog/como-crear-contrasenas-seguras-que-puedas-recordar.html /blog/como-crear-contrasenas-seguras-que-puedas-recordar 301
+/nosotros.html /nosotros 301
+/contacto.html /contacto 301
+/privacidad.html /privacidad 301

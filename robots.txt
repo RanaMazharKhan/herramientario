@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# IMPORTANTE: sustituye https://herramientario.app por tu dominio real
+Sitemap: https://herramientario.app/sitemap.xml
