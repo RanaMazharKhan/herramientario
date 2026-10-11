@@ -1,6 +1,5 @@
 # Clean URLs: redirect .html versions to canonical extensionless URLs
 # (Cloudflare Pages serves /tools/x from /tools/x.html automatically)
-/index.html / 301
 /blog/index.html /blog/ 301
 /tools/generador-de-codigos-qr.html /tools/generador-de-codigos-qr 301
 /tools/contador-de-palabras.html /tools/contador-de-palabras 301
