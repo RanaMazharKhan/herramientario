@@ -22,7 +22,7 @@ redirects, and contact email all point to **https://herramientario.app**.
 1. Go to **github.com/new** → repository name: `herramientario` → **Public** → Create repository.
 2. Click **uploading an existing file** → drag in ALL the contents of this folder
    (everything inside it — `index.html`, `tools/`, `blog/`, `assets/`, etc., but NOT the
-   folder itself) → Commit changes.
+   folder itself) → Commit changes. 
 3. Check the repo: `index.html` must sit at the TOP level of the repository.
 
 ---
