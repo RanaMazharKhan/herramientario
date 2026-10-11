@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Compresor de imágenes online gratis</title>
+<meta name="description" content="Comprime imágenes por lotes y convierte entre PNG, JPG y WebP sin perder calidad visible. 100 % en tu navegador, privado y sin registro.">
+<link rel="canonical" href="https://herramientario.app/tools/compresor-de-imagenes.html">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Herramientario">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="Compresor de imágenes online gratis">
+<meta property="og:description" content="Comprime imágenes por lotes y convierte entre PNG, JPG y WebP sin perder calidad visible. 100 % en tu navegador, privado y sin registro.">
+<meta property="og:url" content="https://herramientario.app/tools/compresor-de-imagenes.html">
+<meta property="og:image" content="https://herramientario.app/og-cover.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Compresor de imágenes online gratis">
+<meta name="twitter:description" content="Comprime imágenes por lotes y convierte entre PNG, JPG y WebP sin perder calidad visible. 100 % en tu navegador, privado y sin registro.">
+<meta name="twitter:image" content="https://herramientario.app/og-cover.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<script>
+/* Aplica el tema guardado antes del primer pintado (evita parpadeo) */
+(function(){try{var t=localStorage.getItem("hg-theme");if(t==="dark"){document.documentElement.setAttribute("data-theme","dark");}}catch(e){}})();
+</script>
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/favicon.svg">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#4f46e5">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "¿Cómo reduzco el peso de una imagen sin perder calidad?", "acceptedAnswer": {"@type": "Answer", "text": "Usa un formato eficiente (WebP o JPG con calidad 80-85) y ajusta las dimensiones a lo que realmente necesitas. Nuestra herramienta lo hace automáticamente: elige una calidad entre 70 y 85 y obtendrás archivos mucho más ligeros con una diferencia visual imperceptible."}},
+    {"@type": "Question", "name": "¿Qué formato es mejor: JPG, PNG o WebP?", "acceptedAnswer": {"@type": "Answer", "text": "Para fotos usa JPG o WebP (mucho más ligeros). Para imágenes con transparencia o texto nítido usa PNG o WebP. WebP suele ser la mejor opción: pesa entre un 25 % y un 35 % menos que JPG con la misma calidad."}},
+    {"@type": "Question", "name": "¿Mis imágenes se suben a algún servidor?", "acceptedAnswer": {"@type": "Answer", "text": "No. Toda la compresión ocurre dentro de tu navegador usando canvas. Tus imágenes nunca salen de tu dispositivo."}},
+    {"@type": "Question", "name": "¿Puedo comprimir varias imágenes a la vez?", "acceptedAnswer": {"@type": "Answer", "text": "Sí, puedes seleccionar o arrastrar muchas imágenes a la vez. Se procesan por lotes y puedes descargarlas todas juntas en un archivo ZIP o una por una."}},
+    {"@type": "Question", "name": "¿Qué calidad debo elegir?", "acceptedAnswer": {"@type": "Answer", "text": "Para publicar en web, 75-85 es el punto ideal. Por debajo de 60 empiezan a notarse artefactos; por encima de 90 el archivo pesa mucho más sin una mejora visible."}},
+    {"@type": "Question", "name": "¿Es gratis y tiene límites?", "acceptedAnswer": {"@type": "Answer", "text": "Es gratis y sin límites de uso ni de tamaño impuesto por la herramienta. Solo depende de la memoria de tu dispositivo."}}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Inicio",
+      "item": "https://herramientario.app/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Compresor de imágenes",
+      "item": "https://herramientario.app/tools/compresor-de-imagenes.html"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><span class="brand-badge">H</span> Herramientas&nbsp;Gratis</a>
+    <nav class="main-nav" id="mainNav">
+      <a href="../index.html" class="always">Inicio</a>
+      <a href="../blog/index.html">Blog</a>
+      <a href="../nosotros.html">Nosotros</a>
+      <a href="../contacto.html">Contacto</a>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Cambiar a modo oscuro" title="Cambiar tema">
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <nav class="breadcrumbs" aria-label="Ruta de navegación">
+    <a href="../index.html">Inicio</a> › <span>Compresor de imágenes</span>
+  </nav>
+
+  <!-- ADSENSE SLOT: LEADERBOARD (under header) — REPLACE WITH YOUR ADSENSE CODE -->
+  <div class="ad-slot">
+    <ins class="adsbygoogle" style="display:block" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  </div>
+</div>
+
+<main class="wrap">
+  <h1>Compresor de imágenes online</h1>
+  <p class="muted">Reduce el peso de tus fotos por lotes sin perder calidad visible, y convierte entre PNG, JPG y WebP. Todo se procesa en tu navegador: tus imágenes nunca se suben a ningún servidor.</p>
+
+  <div class="card">
+    <div class="dropzone" id="dropzone" role="button" tabindex="0" aria-label="Seleccionar imágenes">
+      <p style="font-size:2rem;margin:.2rem">📁</p>
+      <p><strong>Arrastra tus imágenes aquí</strong> o haz clic para seleccionarlas</p>
+      <p class="muted" style="font-size:.85rem">PNG, JPG, WebP, GIF, BMP… se procesan por lotes</p>
+      <input type="file" id="file-input" accept="image/*" multiple class="hidden">
+    </div>
+
+    <div id="settings" class="hidden">
+      <div class="field" style="margin-top:1rem">
+        <label for="quality">Calidad: <span id="quality-label">80</span> %</label>
+        <input type="range" id="quality" min="10" max="100" value="80">
+        <span class="hint">Recomendado para web: 75–85. Más calidad = archivo más pesado.</span>
+      </div>
+      <div class="field">
+        <label for="format">Formato de salida</label>
+        <select id="format">
+          <option value="keep">Mantener formato original</option>
+          <option value="image/jpeg">JPG (fotos, sin transparencia)</option>
+          <option value="image/webp">WebP (el más ligero)</option>
+          <option value="image/png">PNG (transparencia, texto nítido)</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="maxwidth">Ancho máximo (px, 0 = sin cambiar)</label>
+        <input type="number" id="maxwidth" value="1920" min="0" max="8000">
+        <span class="hint">Reducir las dimensiones es la forma más efectiva de bajar el peso.</span>
+      </div>
+      <div class="btn-row">
+        <button class="btn" id="btn-compress">Comprimir imágenes</button>
+        <button class="btn secondary" id="btn-clear">Limpiar</button>
+      </div>
+    </div>
+
+    <ul class="file-list" id="file-list"></ul>
+
+    <div id="results" class="hidden">
+      <h3>Resultados</h3>
+      <p id="summary" class="muted"></p>
+      <div class="btn-row">
+        <button class="btn success" id="btn-zip">⬇ Descargar todo en ZIP</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ADSENSE SLOT: IN-ARTICLE — REPLACE WITH YOUR ADSENSE CODE -->
+  <div class="ad-slot">
+    <ins class="adsbygoogle" style="display:block" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  </div>
+
+  <section>
+    <h2>Cómo comprimir imágenes online</h2>
+    <ol>
+      <li><strong>Sube tus imágenes</strong> arrastrándolas al cuadro o seleccionándolas. Puedes añadir muchas a la vez.</li>
+      <li><strong>Ajusta la calidad</strong> (80 % es ideal para web) y elige el formato de salida. WebP da los archivos más ligeros.</li>
+      <li><strong>Pulsa «Comprimir imágenes»</strong> y verás cuánto ha bajado el peso de cada una.</li>
+      <li><strong>Descarga</strong> cada imagen por separado o todas juntas en un archivo ZIP.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Preguntas frecuentes</h2>
+    <div class="faq">
+      <div class="faq-item"><button class="faq-q">¿Cómo reduzco el peso de una imagen sin perder calidad?</button><div class="faq-a"><p>Usa un formato eficiente (WebP o JPG con calidad 80–85) y ajusta las dimensiones a lo que realmente necesites. Con calidad 75–85 la diferencia visual es imperceptible y el archivo puede pesar la mitad.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿Qué formato es mejor: JPG, PNG o WebP?</button><div class="faq-a"><p>Para fotos, JPG o WebP. Para imágenes con transparencia o texto nítido, PNG o WebP. WebP suele pesar entre un 25 % y un 35 % menos que JPG con la misma calidad.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿Mis imágenes se suben a algún servidor?</button><div class="faq-a"><p>No. Toda la compresión ocurre dentro de tu navegador. Tus imágenes nunca salen de tu dispositivo.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿Puedo comprimir varias imágenes a la vez?</button><div class="faq-a"><p>Sí. Selecciona o arrastra todas las que quieras: se procesan por lotes y puedes descargarlas juntas en un ZIP o una por una.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿Qué calidad debo elegir?</button><div class="faq-a"><p>Para web, entre 75 y 85. Por debajo de 60 empiezan a notarse artefactos; por encima de 90 el archivo pesa mucho más sin una mejora visible.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿Es gratis y tiene límites?</button><div class="faq-a"><p>Es gratis y sin límites de uso. El único límite práctico es la memoria de tu dispositivo al procesar muchas imágenes grandes a la vez.</p></div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Guía relacionada</h2>
+    <p>Profundiza en nuestro artículo: <a href="../blog/como-reducir-el-peso-de-una-imagen-sin-perder-calidad.html">Cómo reducir el peso de una imagen sin perder calidad</a>.</p>
+  </section>
+
+  <!-- ADSENSE SLOT: FOOTER — REPLACE WITH YOUR ADSENSE CODE -->
+  <div class="ad-slot">
+    <ins class="adsbygoogle" style="display:block" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div><h4>Herramientario</h4><p style="font-size:.9rem">Utilidades online gratuitas en español.</p></div>
+      <div><h4>Herramientas</h4><ul>
+        <li><a href="generador-de-codigos-qr.html">Generador de códigos QR</a></li>
+        <li><a href="contador-de-palabras.html">Contador de palabras</a></li>
+        <li><a href="compresor-de-imagenes.html">Compresor de imágenes</a></li>
+        <li><a href="calculadora-de-imc.html">Calculadora de IMC</a></li>
+        <li><a href="generador-de-contrasenas.html">Generador de contraseñas</a></li>
+        <li><a href="formateador-json.html">Formateador JSON</a></li>
+      </ul></div>
+      <div><h4>Información</h4><ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../blog/index.html">Blog</a></li>
+        <li><a href="../nosotros.html">Nosotros</a></li>
+        <li><a href="../contacto.html">Contacto</a></li>
+        <li><a href="../privacidad.html">Política de privacidad</a></li>
+      </ul></div>
+    </div>
+    <p class="copyright">© <span data-year>2026</span> Herramientario. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script src="../assets/js/main.js"></script>
+<script>
+(function(){
+  "use strict";
+  var dz = document.getElementById("dropzone");
+  var fi = document.getElementById("file-input");
+  var list = document.getElementById("file-list");
+  var settings = document.getElementById("settings");
+  var results = document.getElementById("results");
+  var files = []; // {file, img, outBlob, outName, outSize}
+
+  dz.addEventListener("click", function(){ fi.click(); });
+  dz.addEventListener("keydown", function(e){ if(e.key === "Enter" || e.key === " "){ fi.click(); } });
+  ["dragover","dragenter"].forEach(function(ev){ dz.addEventListener(ev, function(e){ e.preventDefault(); dz.classList.add("dragover"); }); });
+  ["dragleave","drop"].forEach(function(ev){ dz.addEventListener(ev, function(e){ e.preventDefault(); dz.classList.remove("dragover"); }); });
+  dz.addEventListener("drop", function(e){ addFiles(e.dataTransfer.files); });
+  fi.addEventListener("change", function(){ addFiles(fi.files); fi.value = ""; });
+
+  document.getElementById("quality").addEventListener("input", function(){
+    document.getElementById("quality-label").textContent = this.value;
+  });
+
+  function fmtBytes(b){
+    if(b < 1024) return b + " B";
+    if(b < 1048576) return (b/1024).toFixed(1).replace(".", ",") + " KB";
+    return (b/1048576).toFixed(2).replace(".", ",") + " MB";
+  }
+
+  function addFiles(fileList){
+    Array.prototype.forEach.call(fileList, function(f){
+      if(!f.type.startsWith("image/")) return;
+      var item = { file: f, outBlob: null, outName: f.name };
+      files.push(item);
+      var li = document.createElement("li");
+      var img = document.createElement("img");
+      img.alt = f.name;
+      img.src = URL.createObjectURL(f);
+      var span = document.createElement("span");
+      span.innerHTML = "<strong>" + f.name + "</strong><br><span class='muted'>" + fmtBytes(f.size) + " — pendiente de comprimir</span>";
+      var dl = document.createElement("button");
+      dl.className = "btn secondary"; dl.style.marginLeft = "auto"; dl.textContent = "⬇"; dl.disabled = true; dl.title = "Descargar";
+      dl.addEventListener("click", function(){
+        if(item.outBlob){
+          var a = document.createElement("a");
+          a.href = URL.createObjectURL(item.outBlob);
+          a.download = item.outName;
+          document.body.appendChild(a); a.click(); a.remove();
+        }
+      });
+      li.appendChild(img); li.appendChild(span); li.appendChild(dl);
+      list.appendChild(li);
+      item.li = li; item.dlBtn = dl; item.span = span;
+    });
+    if(files.length) settings.classList.remove("hidden");
+  }
+
+  function loadImage(file){
+    return new Promise(function(res, rej){
+      var img = new Image();
+      img.onload = function(){ res(img); };
+      img.onerror = function(){ rej(new Error("No se pudo leer la imagen.")); };
+      img.src = URL.createObjectURL(file);
+    });
+  }
+
+  function mimeFor(item, chosen){
+    if(chosen !== "keep") return chosen;
+    if(item.file.type === "image/jpeg" || item.file.type === "image/webp" || item.file.type === "image/png") return item.file.type;
+    return "image/jpeg";
+  }
+  function extFor(mime){
+    return mime === "image/png" ? "png" : mime === "image/webp" ? "webp" : "jpg";
+  }
+
+  document.getElementById("btn-compress").addEventListener("click", async function(){
+    if(!files.length){ flash("Añade al menos una imagen."); return; }
+    var q = parseInt(document.getElementById("quality").value, 10) / 100;
+    var chosen = document.getElementById("format").value;
+    var maxW = parseInt(document.getElementById("maxwidth").value, 10) || 0;
+    var done = 0, saved = 0, origTotal = 0, newTotal = 0;
+    flash("Comprimiendo " + files.length + " imagen(es)…");
+    for(var i = 0; i < files.length; i++){
+      var item = files[i];
+      try{
+        var img = await loadImage(item.file);
+        var w = img.naturalWidth, h = img.naturalHeight;
+        if(maxW > 0 && w > maxW){ h = Math.round(h * maxW / w); w = maxW; }
+        var canvas = document.createElement("canvas");
+        canvas.width = w; canvas.height = h;
+        var ctx = canvas.getContext("2d");
+        var mime = mimeFor(item, chosen);
+        if(mime === "image/jpeg"){ ctx.fillStyle = "#ffffff"; ctx.fillRect(0, 0, w, h); }
+        ctx.drawImage(img, 0, 0, w, h);
+        var blob = await new Promise(function(res){ canvas.toBlob(res, mime, q); });
+        if(!blob) throw new Error("Formato no soportado por tu navegador.");
+        var base = item.file.name.replace(/\.[^.]+$/, "");
+        item.outBlob = blob;
+        item.outName = base + "-comprimida." + extFor(mime);
+        origTotal += item.file.size; newTotal += blob.size;
+        var pct = Math.round((1 - blob.size / item.file.size) * 100);
+        item.span.innerHTML = "<strong>" + item.outName + "</strong><br><span class='muted'>" +
+          fmtBytes(item.file.size) + " → " + fmtBytes(blob.size) +
+          (pct >= 0 ? " (<b style='color:var(--accent)'>" + pct + " % menos</b>)" : " (+" + Math.abs(pct) + " %)") + "</span>";
+        item.dlBtn.disabled = false;
+        done++;
+      }catch(e){
+        item.span.innerHTML = "<strong>" + item.file.name + "</strong><br><span style='color:#b91c1c'>Error: " + e.message + "</span>";
+      }
+    }
+    var totalPct = origTotal ? Math.round((1 - newTotal / origTotal) * 100) : 0;
+    document.getElementById("summary").innerHTML =
+      "Procesadas <strong>" + done + "</strong> de " + files.length + " imágenes. Peso total: <strong>" +
+      fmtBytes(origTotal) + " → " + fmtBytes(newTotal) + "</strong> (" + totalPct + " % menos).";
+    results.classList.remove("hidden");
+    flash("¡Listo! " + done + " imagen(es) comprimida(s).");
+  });
+
+  document.getElementById("btn-clear").addEventListener("click", function(){
+    files = []; list.innerHTML = "";
+    settings.classList.add("hidden"); results.classList.add("hidden");
+  });
+
+  document.getElementById("btn-zip").addEventListener("click", async function(){
+    var ready = files.filter(function(f){ return f.outBlob; });
+    if(!ready.length){ flash("Primero comprime las imágenes."); return; }
+    if(typeof JSZip === "undefined"){
+      flash("La librería ZIP no cargó (revisa tu conexión). Descarga las imágenes una por una.");
+      return;
+    }
+    var zip = new JSZip();
+    ready.forEach(function(f){ zip.file(f.outName, f.outBlob); });
+    var blob = await zip.generateAsync({type: "blob"});
+    var a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "imagenes-comprimidas.zip";
+    document.body.appendChild(a); a.click(); a.remove();
+  });
+})();
+</script>
+</body>
+</html>

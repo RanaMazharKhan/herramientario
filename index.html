@@ -3,22 +3,22 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Herramientario: herramientas online gratis en español</title>
-<meta name="description" content="6 herramientas online gratuitas en español: códigos QR, contador de palabras, compresor de imágenes, calculadora de IMC, contraseñas y JSON. Sin registro.">
-<link rel="canonical" href="https://herramientario.app/">
+<title>Blog: guías y trucos de herramientas online</title>
+<meta name="description" content="Guías prácticas en español: cómo crear códigos QR para WhatsApp, comprimir imágenes sin perder calidad, calcular el IMC y crear contraseñas seguras.">
+<link rel="canonical" href="https://herramientario.app/blog/">
 <meta name="robots" content="index, follow">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Herramientario">
 <meta property="og:locale" content="es_ES">
-<meta property="og:title" content="Herramientario: herramientas online gratis en español">
-<meta property="og:description" content="6 herramientas online gratuitas en español: códigos QR, contador de palabras, compresor de imágenes, calculadora de IMC, contraseñas y JSON. Sin registro.">
-<meta property="og:url" content="https://herramientario.app/">
+<meta property="og:title" content="Blog: guías y trucos de herramientas online">
+<meta property="og:description" content="Guías prácticas en español: cómo crear códigos QR para WhatsApp, comprimir imágenes sin perder calidad, calcular el IMC y crear contraseñas seguras.">
+<meta property="og:url" content="https://herramientario.app/blog/">
 <meta property="og:image" content="https://herramientario.app/og-cover.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Herramientario: herramientas online gratis en español">
-<meta name="twitter:description" content="6 herramientas online gratuitas en español: códigos QR, contador de palabras, compresor de imágenes, calculadora de IMC, contraseñas y JSON. Sin registro.">
+<meta name="twitter:title" content="Blog: guías y trucos de herramientas online">
+<meta name="twitter:description" content="Guías prácticas en español: cómo crear códigos QR para WhatsApp, comprimir imágenes sin perder calidad, calcular el IMC y crear contraseñas seguras.">
 <meta name="twitter:image" content="https://herramientario.app/og-cover.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,7 +27,7 @@
 /* Aplica el tema guardado antes del primer pintado (evita parpadeo) */
 (function(){try{var t=localStorage.getItem("hg-theme");if(t==="dark"){document.documentElement.setAttribute("data-theme","dark");}}catch(e){}})();
 </script>
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/style.css">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/favicon.svg">
 <link rel="manifest" href="/site.webmanifest">
@@ -35,24 +35,35 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@graph": [
+  "@type": "Blog",
+  "@id": "https://herramientario.app/blog/#blog",
+  "url": "https://herramientario.app/blog/",
+  "name": "Blog de Herramientario",
+  "description": "Guías prácticas en español sobre herramientas online gratuitas.",
+  "inLanguage": "es",
+  "publisher": {
+    "@id": "https://herramientario.app/#organization"
+  },
+  "blogPost": [
     {
-      "@type": "WebSite",
-      "@id": "https://herramientario.app/#website",
-      "url": "https://herramientario.app/",
-      "name": "Herramientario",
-      "description": "6 herramientas online gratuitas en español: códigos QR, contador de palabras, compresor de imágenes, calculadora de IMC, contraseñas seguras y JSON.",
-      "inLanguage": "es",
-      "publisher": {
-        "@id": "https://herramientario.app/#organization"
-      }
+      "@type": "BlogPosting",
+      "headline": "Cómo crear un código QR para WhatsApp paso a paso",
+      "url": "https://herramientario.app/blog/como-crear-un-codigo-qr-para-whatsapp.html"
     },
     {
-      "@type": "Organization",
-      "@id": "https://herramientario.app/#organization",
-      "name": "Herramientario",
-      "url": "https://herramientario.app/",
-      "logo": "https://herramientario.app/favicon.svg"
+      "@type": "BlogPosting",
+      "headline": "Cómo reducir el peso de una imagen sin perder calidad",
+      "url": "https://herramientario.app/blog/como-reducir-el-peso-de-una-imagen-sin-perder-calidad.html"
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Qué es el índice de masa corporal (IMC) y cómo calcularlo",
+      "url": "https://herramientario.app/blog/que-es-el-indice-de-masa-corporal-y-como-calcularlo.html"
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Cómo crear contraseñas seguras y fáciles de recordar",
+      "url": "https://herramientario.app/blog/como-crear-contrasenas-seguras-que-puedas-recordar.html"
     }
   ]
 }
@@ -62,12 +73,12 @@
 
 <header class="site-header">
   <div class="wrap">
-    <a class="brand" href="index.html"><span class="brand-badge">H</span> Herramientas&nbsp;Gratis</a>
+    <a class="brand" href="../index.html"><span class="brand-badge">H</span> Herramientas&nbsp;Gratis</a>
     <nav class="main-nav" id="mainNav">
-      <a href="index.html" class="active always">Inicio</a>
-      <a href="blog/index.html">Blog</a>
-      <a href="nosotros.html">Nosotros</a>
-      <a href="contacto.html">Contacto</a>
+      <a href="../index.html" class="always">Inicio</a>
+      <a href="../blog/index.html" class="active">Blog</a>
+      <a href="../nosotros.html">Nosotros</a>
+      <a href="../contacto.html">Contacto</a>
     </nav>
     <div class="header-actions">
       <button class="theme-toggle" id="themeToggle" type="button" aria-label="Cambiar a modo oscuro" title="Cambiar tema">
@@ -82,6 +93,10 @@
 </header>
 
 <div class="wrap">
+  <nav class="breadcrumbs" aria-label="Ruta de navegación">
+    <a href="../index.html">Inicio</a> › <span>Blog</span>
+  </nav>
+
   <!-- ADSENSE SLOT: LEADERBOARD (under header) — REPLACE WITH YOUR ADSENSE CODE -->
   <div class="ad-slot">
     <ins class="adsbygoogle" style="display:block" data-ad-format="auto" data-full-width-responsive="true"></ins>
@@ -89,149 +104,35 @@
 </div>
 
 <main class="wrap">
-  <section class="hero">
-    <div class="hero-bg" aria-hidden="true"><span class="orb orb-1"></span><span class="orb orb-2"></span><span class="orb orb-3"></span><span class="mesh-blob mesh-a"></span><span class="mesh-blob mesh-b"></span></div>
-    <div class="hero-content">
-      <span class="hero-badge">✨ 6 herramientas · 100&nbsp;% gratis · Sin registro</span>
-      <h1>Herramientas online <span class="grad-text">gratuitas</span> en español</h1>
-      <p>Genera códigos QR, cuenta palabras, comprime imágenes, calcula tu índice de masa corporal, crea contraseñas seguras y formatea JSON. Sin registro, sin límites y sin subir tus datos a ningún servidor.</p>
-      <div class="hero-search">
-        <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-        <input type="text" id="tool-search" placeholder="Busca una herramienta… (ej: QR, IMC, JSON)" aria-label="Buscar herramienta">
-        <button type="button">Buscar</button>
-      </div>
-      <div class="hero-stats" aria-label="Datos del sitio">
-        <div class="hero-stat"><b data-count="6">6</b><span>herramientas</span></div>
-        <div class="hero-stat"><b data-count="100" data-suffix="%">100%</b><span>gratis</span></div>
-        <div class="hero-stat"><b data-count="0">0</b><span>registro</span></div>
-      </div>
-      <div class="hero-trust">
-        <span>🔒 100&nbsp;% privado</span>
-        <span>⚡ Sin registro</span>
-        <span>📱 Funciona en el móvil</span>
-      </div>
-    </div>
-  </section>
+  <h1>Blog: guías y trucos</h1>
+  <p class="muted">Artículos prácticos para sacarle el máximo partido a nuestras herramientas gratuitas.</p>
 
-  <div class="marquee" aria-hidden="true">
-    <div class="marquee-track">
-      <span>generador de códigos qr <i>•</i></span><span>contador de palabras <i>•</i></span><span>compresor de imágenes <i>•</i></span><span>calculadora de imc <i>•</i></span><span>generador de contraseñas <i>•</i></span><span>formateador json <i>•</i></span>
-      <span>generador de códigos qr <i>•</i></span><span>contador de palabras <i>•</i></span><span>compresor de imágenes <i>•</i></span><span>calculadora de imc <i>•</i></span><span>generador de contraseñas <i>•</i></span><span>formateador json <i>•</i></span>
-    </div>
+  <div class="tool-grid">
+    <a class="tool-card" href="como-crear-un-codigo-qr-para-whatsapp.html">
+      <span class="emoji">💬</span>
+      <h3>Cómo crear un código QR para WhatsApp paso a paso</h3>
+      <p>Genera un QR que abra un chat con tu número y un mensaje listo. Con formato wa.me, ejemplos por país y trucos.</p>
+      <span class="go">Leer artículo →</span>
+    </a>
+    <a class="tool-card" href="como-reducir-el-peso-de-una-imagen-sin-perder-calidad.html">
+      <span class="emoji">🖼️</span>
+      <h3>Cómo reducir el peso de una imagen sin perder calidad</h3>
+      <p>Formatos modernos, calidad ideal, dimensiones correctas y compresión por lotes. Guía completa 2026.</p>
+      <span class="go">Leer artículo →</span>
+    </a>
+    <a class="tool-card" href="que-es-el-indice-de-masa-corporal-y-como-calcularlo.html">
+      <span class="emoji">⚖️</span>
+      <h3>Qué es el índice de masa corporal y cómo calcularlo</h3>
+      <p>La fórmula paso a paso, las categorías de la OMS, tu rango de peso saludable y las limitaciones del IMC.</p>
+      <span class="go">Leer artículo →</span>
+    </a>
+    <a class="tool-card" href="como-crear-contrasenas-seguras-que-puedas-recordar.html">
+      <span class="emoji">🔐</span>
+      <h3>Cómo crear contraseñas seguras que puedas recordar</h3>
+      <p>Frases de paso, sustituciones, acrónimos y gestores de contraseñas. Métodos prácticos sin reutilizar claves.</p>
+      <span class="go">Leer artículo →</span>
+    </a>
   </div>
-
-  <section>
-    <h2 class="reveal">Nuestras herramientas</h2>
-    <div class="bento-grid">
-
-      <a class="tool-card bento-xl reveal" href="tools/generador-de-codigos-qr.html">
-        <span class="bento-flag">La más usada</span>
-        <span class="emoji">🔳</span>
-        <h3>Generador de códigos QR</h3>
-        <p>Crea códigos QR para URLs, texto, WiFi, WhatsApp y tarjetas vCard. Personaliza colores, añade tu logo y descarga en PNG o SVG.</p>
-        <span class="go">Usar herramienta →</span>
-      </a>
-
-      <a class="tool-card bento-md reveal" data-delay="1" href="tools/contador-de-palabras.html">
-        <span class="emoji">🔤</span>
-        <h3>Contador de palabras y caracteres</h3>
-        <p>Cuenta palabras, caracteres, frases y párrafos al instante. Incluye tiempo de lectura y densidad de palabras clave.</p>
-        <span class="go">Usar herramienta →</span>
-      </a>
-
-      <a class="tool-card bento-md reveal" data-delay="2" href="tools/compresor-de-imagenes.html">
-        <span class="emoji">🖼️</span>
-        <h3>Compresor de imágenes</h3>
-        <p>Reduce el peso de tus fotos por lotes sin perder calidad visible. Convierte entre PNG, JPG y WebP, todo en tu navegador.</p>
-        <span class="go">Usar herramienta →</span>
-      </a>
-
-      <a class="tool-card bento-md reveal" data-delay="3" href="tools/calculadora-de-imc.html">
-        <span class="emoji">⚖️</span>
-        <h3>Calculadora de IMC</h3>
-        <p>Calcula tu índice de masa corporal con tu peso y altura. Descubre tu categoría y tu rango de peso saludable.</p>
-        <span class="go">Usar herramienta →</span>
-      </a>
-
-      <a class="tool-card bento-md reveal" data-delay="4" href="tools/generador-de-contrasenas.html">
-        <span class="emoji">🔐</span>
-        <h3>Generador de contraseñas</h3>
-        <p>Crea contraseñas fuertes y aleatorias con la longitud y los caracteres que elijas. Muestra el nivel de seguridad.</p>
-        <span class="go">Usar herramienta →</span>
-      </a>
-
-      <a class="tool-card bento-md reveal" data-delay="5" href="tools/formateador-json.html">
-        <span class="emoji">🧩</span>
-        <h3>Formateador y validador JSON</h3>
-        <p>Pega tu JSON para formatearlo, minificarlo o validarlo con mensajes de error claros. Ideal para desarrolladores.</p>
-        <span class="go">Usar herramienta →</span>
-      </a>
-
-      <a class="tool-card bento-xl suggest reveal" data-delay="3" href="contacto.html">
-        <span class="emoji">💡</span>
-        <h3>¿Qué herramienta echas en falta?</h3>
-        <p>Cuéntanos qué utilidad necesitas y la añadimos. Herramientario crece con las ideas de su comunidad.</p>
-        <span class="go">Sugerir una herramienta →</span>
-      </a>
-
-    </div>
-  </section>
-
-  <!-- ADSENSE SLOT: IN-ARTICLE — REPLACE WITH YOUR ADSENSE CODE -->
-  <div class="ad-slot">
-    <ins class="adsbygoogle" style="display:block" data-ad-format="auto" data-full-width-responsive="true"></ins>
-  </div>
-
-  <section>
-    <h2 class="reveal">¿Por qué usar nuestras herramientas?</h2>
-    <div class="tool-grid">
-      <div class="tool-card reveal">
-        <span class="emoji">🔒</span>
-        <h3>Privacidad total</h3>
-        <p>Todo se procesa dentro de tu navegador. Tus textos, imágenes y datos nunca salen de tu dispositivo.</p>
-      </div>
-      <div class="tool-card reveal">
-        <span class="emoji">⚡</span>
-        <h3>Rápidas y sin registro</h3>
-        <p>Sin cuentas, sin esperas y sin límites de uso. Abre la herramienta y úsala al instante.</p>
-      </div>
-      <div class="tool-card reveal">
-        <span class="emoji">📱</span>
-        <h3>Funcionan en el móvil</h3>
-        <p>Diseñadas primero para pantallas pequeñas: rápidas, táctiles y sin descargas adicionales.</p>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <h2 class="reveal">Del blog</h2>
-    <div class="tool-grid">
-      <a class="tool-card reveal" href="blog/como-crear-un-codigo-qr-para-whatsapp.html">
-        <span class="emoji">💬</span>
-        <h3>Cómo crear un código QR para WhatsApp</h3>
-        <p>Guía paso a paso para generar un QR que abra un chat de WhatsApp con tu número y un mensaje listo.</p>
-        <span class="go">Leer artículo →</span>
-      </a>
-      <a class="tool-card reveal" href="blog/como-reducir-el-peso-de-una-imagen-sin-perder-calidad.html">
-        <span class="emoji">🖼️</span>
-        <h3>Cómo reducir el peso de una imagen sin perder calidad</h3>
-        <p>Técnicas de compresión, formatos modernos y ajustes recomendados para web y redes sociales.</p>
-        <span class="go">Leer artículo →</span>
-      </a>
-      <a class="tool-card reveal" href="blog/que-es-el-indice-de-masa-corporal-y-como-calcularlo.html">
-        <span class="emoji">⚖️</span>
-        <h3>Qué es el IMC y cómo calcularlo</h3>
-        <p>Qué mide el índice de masa corporal, sus categorías y sus limitaciones explicadas de forma sencilla.</p>
-        <span class="go">Leer artículo →</span>
-      </a>
-      <a class="tool-card reveal" href="blog/como-crear-contrasenas-seguras-que-puedas-recordar.html">
-        <span class="emoji">🔐</span>
-        <h3>Cómo crear contraseñas seguras que puedas recordar</h3>
-        <p>Métodos prácticos para crear claves fuertes y memorizables sin reutilizarlas en cada sitio.</p>
-        <span class="go">Leer artículo →</span>
-      </a>
-    </div>
-  </section>
 
   <!-- ADSENSE SLOT: FOOTER — REPLACE WITH YOUR ADSENSE CODE -->
   <div class="ad-slot">
@@ -242,35 +143,27 @@
 <footer class="site-footer">
   <div class="wrap">
     <div class="footer-grid">
-      <div>
-        <h4>Herramientario</h4>
-        <p style="font-size:.9rem">Utilidades online gratuitas en español, rápidas y privadas.</p>
-      </div>
-      <div>
-        <h4>Herramientas</h4>
-        <ul>
-          <li><a href="tools/generador-de-codigos-qr.html">Generador de códigos QR</a></li>
-          <li><a href="tools/contador-de-palabras.html">Contador de palabras</a></li>
-          <li><a href="tools/compresor-de-imagenes.html">Compresor de imágenes</a></li>
-          <li><a href="tools/calculadora-de-imc.html">Calculadora de IMC</a></li>
-          <li><a href="tools/generador-de-contrasenas.html">Generador de contraseñas</a></li>
-          <li><a href="tools/formateador-json.html">Formateador JSON</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Información</h4>
-        <ul>
-          <li><a href="blog/index.html">Blog</a></li>
-          <li><a href="nosotros.html">Nosotros</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-          <li><a href="privacidad.html">Política de privacidad</a></li>
-        </ul>
-      </div>
+      <div><h4>Herramientario</h4><p style="font-size:.9rem">Utilidades online gratuitas en español.</p></div>
+      <div><h4>Herramientas</h4><ul>
+        <li><a href="../tools/generador-de-codigos-qr.html">Generador de códigos QR</a></li>
+        <li><a href="../tools/contador-de-palabras.html">Contador de palabras</a></li>
+        <li><a href="../tools/compresor-de-imagenes.html">Compresor de imágenes</a></li>
+        <li><a href="../tools/calculadora-de-imc.html">Calculadora de IMC</a></li>
+        <li><a href="../tools/generador-de-contrasenas.html">Generador de contraseñas</a></li>
+        <li><a href="../tools/formateador-json.html">Formateador JSON</a></li>
+      </ul></div>
+      <div><h4>Información</h4><ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../blog/index.html">Blog</a></li>
+        <li><a href="../nosotros.html">Nosotros</a></li>
+        <li><a href="../contacto.html">Contacto</a></li>
+        <li><a href="../privacidad.html">Política de privacidad</a></li>
+      </ul></div>
     </div>
     <p class="copyright">© <span data-year>2026</span> Herramientario. Todos los derechos reservados.</p>
   </div>
 </footer>
 
-<script src="assets/js/main.js"></script>
+<script src="../assets/js/main.js"></script>
 </body>
 </html>

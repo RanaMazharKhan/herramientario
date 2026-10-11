@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora de IMC gratis online</title>
+<meta name="description" content="Calcula tu índice de masa corporal con tu peso y altura y descubre tu categoría y tu rango de peso saludable. Gratis y sin registro.">
+<link rel="canonical" href="https://herramientario.app/tools/calculadora-de-imc.html">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Herramientario">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="Calculadora de IMC gratis online">
+<meta property="og:description" content="Calcula tu índice de masa corporal con tu peso y altura y descubre tu categoría y tu rango de peso saludable. Gratis y sin registro.">
+<meta property="og:url" content="https://herramientario.app/tools/calculadora-de-imc.html">
+<meta property="og:image" content="https://herramientario.app/og-cover.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Calculadora de IMC gratis online">
+<meta name="twitter:description" content="Calcula tu índice de masa corporal con tu peso y altura y descubre tu categoría y tu rango de peso saludable. Gratis y sin registro.">
+<meta name="twitter:image" content="https://herramientario.app/og-cover.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<script>
+/* Aplica el tema guardado antes del primer pintado (evita parpadeo) */
+(function(){try{var t=localStorage.getItem("hg-theme");if(t==="dark"){document.documentElement.setAttribute("data-theme","dark");}}catch(e){}})();
+</script>
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/favicon.svg">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#4f46e5">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "¿Cómo se calcula el IMC?", "acceptedAnswer": {"@type": "Answer", "text": "El IMC se calcula dividiendo el peso en kilogramos entre la altura en metros al cuadrado: IMC = peso (kg) / altura² (m). Por ejemplo, una persona de 70 kg y 1,75 m tiene un IMC de 70 / (1,75 × 1,75) = 22,9."}},
+    {"@type": "Question", "name": "¿Cuáles son las categorías del IMC?", "acceptedAnswer": {"@type": "Answer", "text": "Según la OMS: menos de 18,5 es bajo peso; 18,5–24,9 es peso normal; 25–29,9 es sobrepeso; y 30 o más es obesidad (dividida en grados I, II y III)."}},
+    {"@type": "Question", "name": "¿El IMC es fiable para todo el mundo?", "acceptedAnswer": {"@type": "Answer", "text": "No del todo. El IMC no distingue entre músculo y grasa, por lo que puede clasificar mal a deportistas musculosos, personas mayores con poca masa muscular, embarazadas y niños. Es una orientación, no un diagnóstico."}},
+    {"@type": "Question", "name": "¿Cómo sé cuál es mi peso ideal?", "acceptedAnswer": {"@type": "Answer", "text": "Un rango de peso saludable corresponde a un IMC entre 18,5 y 24,9. Multiplica esos valores por tu altura al cuadrado para obtener el rango en kilos. Nuestra calculadora lo muestra automáticamente."}},
+    {"@type": "Question", "name": "¿El IMC varía según la edad o el sexo?", "acceptedAnswer": {"@type": "Answer", "text": "La fórmula es la misma, pero la interpretación cambia: en niños y adolescentes se usan percentiles por edad y sexo, y en mayores de 65 años un IMC ligeramente más alto puede ser aceptable. Esta herramienta permite ajustar la edad."}},
+    {"@type": "Question", "name": "¿Esta calculadora sustituye a un médico?", "acceptedAnswer": {"@type": "Answer", "text": "No. Es una herramienta informativa. Si tienes dudas sobre tu peso o tu salud, consulta a un profesional sanitario."}}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Inicio",
+      "item": "https://herramientario.app/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Calculadora de IMC",
+      "item": "https://herramientario.app/tools/calculadora-de-imc.html"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><span class="brand-badge">H</span> Herramientas&nbsp;Gratis</a>
+    <nav class="main-nav" id="mainNav">
+      <a href="../index.html" class="always">Inicio</a>
+      <a href="../blog/index.html">Blog</a>
+      <a href="../nosotros.html">Nosotros</a>
+      <a href="../contacto.html">Contacto</a>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Cambiar a modo oscuro" title="Cambiar tema">
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <nav class="breadcrumbs" aria-label="Ruta de navegación">
+    <a href="../index.html">Inicio</a> › <span>Calculadora de IMC</span>
+  </nav>
+
+  <!-- ADSENSE SLOT: LEADERBOARD (under header) — REPLACE WITH YOUR ADSENSE CODE -->
+  <div class="ad-slot">
+    <ins class="adsbygoogle" style="display:block" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  </div>
+</div>
+
+<main class="wrap">
+  <h1>Calculadora de IMC (índice de masa corporal)</h1>
+  <p class="muted">Introduce tu peso y tu altura para calcular tu IMC al instante. Verás tu categoría según la OMS y tu rango de peso saludable.</p>
+
+  <div class="card">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:1rem">
+      <div class="field">
+        <label for="imc-peso">Peso (kg)</label>
+        <input type="number" id="imc-peso" min="20" max="300" step="0.1" placeholder="70" inputmode="decimal">
+      </div>
+      <div class="field">
+        <label for="imc-altura">Altura (cm)</label>
+        <input type="number" id="imc-altura" min="100" max="230" step="1" placeholder="175" inputmode="decimal">
+      </div>
+      <div class="field">
+        <label for="imc-edad">Edad (opcional)</label>
+        <input type="number" id="imc-edad" min="2" max="120" step="1" placeholder="30" inputmode="numeric">
+      </div>
+      <div class="field">
+        <label for="imc-sexo">Sexo (opcional)</label>
+        <select id="imc-sexo">
+          <option value="">Sin especificar</option>
+          <option value="mujer">Mujer</option>
+          <option value="hombre">Hombre</option>
+        </select>
+      </div>
+    </div>
+    <div class="btn-row">
+      <button class="btn" id="btn-imc">Calcular mi IMC</button>
+    </div>
+
+    <div id="imc-result" class="hidden">
+      <div class="result-box center">
+        <p class="muted" style="margin:.2rem 0">Tu índice de masa corporal es</p>
+        <p style="font-size:3rem;font-weight:900;margin:.2rem 0" id="imc-value">–</p>
+        <p><span class="pill" id="imc-cat">–</span></p>
+        <p class="muted" id="imc-note" style="font-size:.9rem"></p>
+      </div>
+      <h3>Tu rango de peso saludable</h3>
+      <p id="imc-range" class="muted"></p>
+      <h3>Tabla de categorías (OMS)</h3>
+      <table class="data">
+        <thead><tr><th>IMC</th><th>Categoría</th></tr></thead>
+        <tbody>
+          <tr><td>Menos de 18,5</td><td>Bajo peso</td></tr>
+          <tr><td>18,5 – 24,9</td><td>Peso normal</td></tr>
+          <tr><td>25,0 – 29,9</td><td>Sobrepeso</td></tr>
+          <tr><td>30,0 – 34,9</td><td>Obesidad grado I</td></tr>
+          <tr><td>35,0 – 39,9</td><td>Obesidad grado II</td></tr>
+          <tr><td>40 o más</td><td>Obesidad grado III</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="alert info">
+    <strong>Aviso médico:</strong> esta calculadora es solo una herramienta informativa y no sustituye el consejo de un profesional sanitario. El IMC no distingue entre músculo y grasa, por lo que puede no ser adecuado para deportistas, embarazadas, niños o personas mayores. Si tienes dudas sobre tu salud, consulta a tu médico.
+  </div>
+
+  <!-- ADSENSE SLOT: IN-ARTICLE — REPLACE WITH YOUR ADSENSE CODE -->
+  <div class="ad-slot">
+    <ins class="adsbygoogle" style="display:block" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  </div>
+
+  <section>
+    <h2>Cómo usar la calculadora de IMC</h2>
+    <ol>
+      <li><strong>Escribe tu peso</strong> en kilogramos y <strong>tu altura</strong> en centímetros.</li>
+      <li>Si quieres, añade tu edad y sexo para una interpretación más ajustada.</li>
+      <li><strong>Pulsa «Calcular mi IMC»</strong>: verás tu valor, tu categoría y tu rango de peso saludable.</li>
+    </ol>
+    <p>La fórmula es: <strong>IMC = peso (kg) ÷ altura² (m)</strong>. Por ejemplo, 70 kg y 1,75 m → 70 ÷ (1,75 × 1,75) = 22,9 (peso normal).</p>
+  </section>
+
+  <section>
+    <h2>Preguntas frecuentes</h2>
+    <div class="faq">
+      <div class="faq-item"><button class="faq-q">¿Cómo se calcula el IMC?</button><div class="faq-a"><p>Dividiendo el peso en kilos entre la altura en metros al cuadrado. Ejemplo: 70 kg y 1,75 m → 70 ÷ (1,75 × 1,75) = 22,9.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿Cuáles son las categorías del IMC?</button><div class="faq-a"><p>Menos de 18,5: bajo peso. 18,5–24,9: peso normal. 25–29,9: sobrepeso. 30 o más: obesidad (grados I, II y III).</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿El IMC es fiable para todo el mundo?</button><div class="faq-a"><p>No del todo: no distingue músculo de grasa, así que puede clasificar mal a deportistas musculosos, personas mayores, embarazadas y niños. Es una orientación, no un diagnóstico.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿Cómo sé cuál es mi peso ideal?</button><div class="faq-a"><p>El rango saludable corresponde a un IMC entre 18,5 y 24,9. Multiplica esos valores por tu altura al cuadrado para obtener el rango en kilos; la calculadora lo hace por ti.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿El IMC varía según la edad o el sexo?</button><div class="faq-a"><p>La fórmula es la misma, pero la interpretación cambia: en niños se usan percentiles por edad y sexo, y en mayores de 65 un IMC algo más alto puede ser aceptable.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿Esta calculadora sustituye a un médico?</button><div class="faq-a"><p>No. Es informativa. Ante cualquier duda sobre tu peso o tu salud, consulta a un profesional sanitario.</p></div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Guía relacionada</h2>
+    <p>Aprende más en nuestro artículo: <a href="../blog/que-es-el-indice-de-masa-corporal-y-como-calcularlo.html">Qué es el índice de masa corporal y cómo calcularlo</a>.</p>
+  </section>
+
+  <!-- ADSENSE SLOT: FOOTER — REPLACE WITH YOUR ADSENSE CODE -->
+  <div class="ad-slot">
+    <ins class="adsbygoogle" style="display:block" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div><h4>Herramientario</h4><p style="font-size:.9rem">Utilidades online gratuitas en español.</p></div>
+      <div><h4>Herramientas</h4><ul>
+        <li><a href="generador-de-codigos-qr.html">Generador de códigos QR</a></li>
+        <li><a href="contador-de-palabras.html">Contador de palabras</a></li>
+        <li><a href="compresor-de-imagenes.html">Compresor de imágenes</a></li>
+        <li><a href="calculadora-de-imc.html">Calculadora de IMC</a></li>
+        <li><a href="generador-de-contrasenas.html">Generador de contraseñas</a></li>
+        <li><a href="formateador-json.html">Formateador JSON</a></li>
+      </ul></div>
+      <div><h4>Información</h4><ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../blog/index.html">Blog</a></li>
+        <li><a href="../nosotros.html">Nosotros</a></li>
+        <li><a href="../contacto.html">Contacto</a></li>
+        <li><a href="../privacidad.html">Política de privacidad</a></li>
+      </ul></div>
+    </div>
+    <p class="copyright">© <span data-year>2026</span> Herramientario. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<script src="../assets/js/main.js"></script>
+<script>
+(function(){
+  "use strict";
+  function cat(imc){
+    if(imc < 18.5) return "Bajo peso";
+    if(imc < 25) return "Peso normal";
+    if(imc < 30) return "Sobrepeso";
+    if(imc < 35) return "Obesidad grado I";
+    if(imc < 40) return "Obesidad grado II";
+    return "Obesidad grado III";
+  }
+  document.getElementById("btn-imc").addEventListener("click", function(){
+    var peso = parseFloat((document.getElementById("imc-peso").value || "").replace(",", "."));
+    var alturaCm = parseFloat((document.getElementById("imc-altura").value || "").replace(",", "."));
+    var edad = parseInt(document.getElementById("imc-edad").value, 10);
+    var sexo = document.getElementById("imc-sexo").value;
+    if(!(peso > 0) || !(alturaCm > 0)){ flash("Introduce un peso y una altura válidos."); return; }
+    if(peso < 20 || peso > 300 || alturaCm < 100 || alturaCm > 230){ flash("Revisa los valores: parecen fuera de rango."); return; }
+    var h = alturaCm / 100;
+    var imc = peso / (h * h);
+    var imcStr = imc.toFixed(1).replace(".", ",");
+    var categoria = cat(imc);
+    document.getElementById("imc-value").textContent = imcStr;
+    document.getElementById("imc-cat").textContent = categoria;
+    var min = (18.5 * h * h), max = (24.9 * h * h);
+    document.getElementById("imc-range").innerHTML =
+      "Para tu altura (" + Math.round(alturaCm) + " cm), un peso saludable estaría entre <strong>" +
+      min.toFixed(1).replace(".", ",") + " kg</strong> y <strong>" + max.toFixed(1).replace(".", ",") + " kg</strong>.";
+    var note = "";
+    if(edad && edad < 18){
+      note = "En menores de 18 años el IMC se interpreta con percentiles por edad y sexo, no con las categorías de adultos. Consulta a tu pediatra.";
+    } else if(edad && edad >= 65){
+      note = "En personas mayores de 65 años, un IMC entre 23 y 28 suele considerarse aceptable. Esta es solo una orientación.";
+    } else if(sexo === "mujer" || sexo === "hombre"){
+      note = "Recuerda: el IMC no distingue entre músculo y grasa, así que tómalo como una orientación general.";
+    } else {
+      note = "Recuerda: el IMC es una orientación general y no tiene en cuenta tu composición corporal.";
+    }
+    document.getElementById("imc-note").textContent = note;
+    document.getElementById("imc-result").classList.remove("hidden");
+    document.getElementById("imc-result").scrollIntoView({behavior:"smooth", block:"center"});
+  });
+})();
+</script>
+</body>
+</html>
